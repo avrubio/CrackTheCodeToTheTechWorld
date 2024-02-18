@@ -1,0 +1,65 @@
+.home {
+  background: radial-gradient(
+    circle at 95% 0%,
+    rgba(134, 168, 255, 0.82) 8%,
+    rgba(143, 7, 245, 0.56) 19%,
+    rgba(246, 12, 215, 1) 46%,
+    rgba(248, 163, 72, 0.92) 95%
+  );
+}
+
+.navBarItems li {
+  font-size: 0.74rem;
+  color: black;
+}
+
+.sticky-nav {
+  background: radial-gradient(
+    circle at 95% 0%,
+    rgba(134, 168, 255, 0.82) 9%,
+    rgba(246, 12, 215, 1) 46%
+  );
+  position: fixed;
+  width: 100%;
+  /* top: 0; */
+  z-index: 1000;
+  height: 10px;
+}
+
+.content-below-nav {
+  padding-top: 60px; /* Adjust this value based on the height of your navbar */
+}
+
+.intro {
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.section-network {
+  background-color: #9ebaff;
+}
+
+.iphone-img {
+  position: relative;
+  margin-right: 0.125rem;
+  margin-bottom: 10%;
+}
+
+.iphone {
+  width: 100%; /* Set width to 100% for responsiveness */
+  max-width: 300px; /* Adjust the max-width based on your design */
+  height: auto; /* Maintain the aspect ratio */
+  /* Center the element horizontally */
+
+  /* Additional styling for the iPhone can be added here */
+
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    max-width: 70%; /* Adjust the max-width for smaller screens */
+  }
+}
+
+.section-learning {
+  background-color: rgba(143, 7, 245, 0.56);
+}
