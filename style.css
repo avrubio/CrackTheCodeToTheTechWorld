@@ -50,15 +50,9 @@
   background-color: #9ebaff;
 }
 
-.iphone-img {
-  position: relative;
-  margin-right: 0.125rem;
-  margin-bottom: 10%;
-}
-
 .iphone {
   width: 100%; /* Set width to 100% for responsiveness */
-  max-width: 300px; /* Adjust the max-width based on your design */
+  max-width: 25%; /* Adjust the max-width based on your design */
   height: auto; /* Maintain the aspect ratio */
   /* Center the element horizontally */
 
