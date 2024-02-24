@@ -12,6 +12,9 @@
   font-size: 0.74rem;
   color: black;
 }
+.roadmapSH {
+  width: 50%;
+}
 
 .navbar {
   min-height: 40px !important; /* Adjust the height to your preference */
