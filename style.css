@@ -70,6 +70,13 @@
 .section-learning {
   background-color: rgba(143, 7, 245, 0.56);
 }
+.section-resume {
+  background-color: rgba(246, 12, 215, 1);
+}
+
+.section-optimize {
+  background-color: rgba(248, 163, 72, 0.92);
+}
 .menu-horizontal > li:not(.menu-title) > details > ul {
   margin-top: 0.25rem !important;
 }
