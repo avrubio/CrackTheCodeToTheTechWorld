@@ -13,6 +13,13 @@
   color: black;
 }
 
+.navbar {
+  min-height: 40px !important; /* Adjust the height to your preference */
+  padding: 5px 10px; /* Adjust the padding to your preference */
+}
+
+/* Adjust the font size of the elements within the navbar */
+
 .sticky-nav {
   background: radial-gradient(
     circle at 95% 0%,
@@ -23,7 +30,7 @@
   width: 100%;
   /* top: 0; */
   z-index: 1000;
-  height: 10px;
+  height: 5px;
 }
 
 .content-below-nav {
@@ -62,4 +69,7 @@
 
 .section-learning {
   background-color: rgba(143, 7, 245, 0.56);
+}
+.menu-horizontal > li:not(.menu-title) > details > ul {
+  margin-top: 0.25rem !important;
 }
