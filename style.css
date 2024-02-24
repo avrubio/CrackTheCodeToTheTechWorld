@@ -80,3 +80,28 @@
 .menu-horizontal > li:not(.menu-title) > details > ul {
   margin-top: 0.25rem !important;
 }
+
+.linkedinLogo {
+  width: 50%;
+}
+
+.headshot {
+  width: 20%;
+}
+
+#thank-you {
+  background: radial-gradient(
+    circle at 95% 0%,
+    rgba(248, 163, 72, 0.92) 8%,
+    rgba(246, 12, 215, 1) 19%,
+    rgba(143, 7, 245, 0.56) 46%,
+    rgba(134, 168, 255, 0.82) 95%
+  );
+}
+
+.title {
+  font-weight: 800;
+}
+
+.step5-btns {
+}
